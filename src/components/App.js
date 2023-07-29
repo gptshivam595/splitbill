@@ -1,7 +1,7 @@
-import React, { component } from 'react';
-import Header from "./Bootstrap/Header";
+import React from 'react';
+import Header from './Bootstrap/Header';
 
-class App extends  component{
+class App extends React.Component{
   render(){
     return (
       <div className="App">
