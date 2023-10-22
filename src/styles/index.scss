@@ -1,8 +1,10 @@
 body{
     font-family : 'Times New Roman', Times, serif;
     @import "App";
-    background-image: url('forest.jpg');
-    background-size: 100% 280% ;
+    background-repeat: no-repeat ;
+    background-image: url('dollarman.jpg');
+    //background: rgba(218, 198, 198, 0.5);
+    background-size: 100% 201%;
     width: auto;
     height: auto;
     vertical-align: baseline;
@@ -10,7 +12,19 @@ body{
     a.one:visited {color:#1068eb;}
     a.one:hover {color:#03f5fd;}
     a.one:hover{font-size: 14px;}
-    
+    //opacity: 0.4;
+
+    .container{
+        opacity: 0.2;
+        background-color: rgba(0, 0, 0, 0.2);
+        //min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+
     #split {
         font-family: 'Times New Roman', Times, serif;
         font-size: 28px;
@@ -23,7 +37,7 @@ body{
         text-transform: uppercase;
         
       }
-      /*
+      
       #split::before{
         content: attr(data-text);
         position: absolute;
@@ -45,7 +59,7 @@ body{
         70%,90%{
                 width: 46%;
         }
-    }*/
+    }
     a.one {
         margin-left: 1000px;
         font-size: 15px;
@@ -102,11 +116,12 @@ body{
     }
     
     #ip2:focus {
-        background-color: yellow;
+        background-color: rgb(205, 243, 227);
+        
     }
     
     #ip3:focus {
-        background-color: yellow;
+        background-color: rgb(200, 238, 222);
+        
     }
-   
 }
